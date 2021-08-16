@@ -1,5 +1,12 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
+  <div id="app">
+    <PlasmicComponent component="Homepage" />
   </div>
 </template>
+
+<script>
+import { PlasmicComponent } from "@plasmicapp/loader-vue";
+export default {
+  components: { PlasmicComponent }
+}
+</script>
